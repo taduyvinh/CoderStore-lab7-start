@@ -46,3 +46,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'carrierwave-aws'
+gem 'dotenv-rails', groups: [:development, :test], require: 'dotenv/rails-now'
